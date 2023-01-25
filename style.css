@@ -1,0 +1,38 @@
+body {
+    background-color: #083b4c;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    list-style: none;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: #1389b2;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
+}
